@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const uri = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.zjels.mongodb.net/exitease`;
+// const uri = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.zjels.mongodb.net/exitease`;
+const uri = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@xexit.qxnd9.mongodb.net/exitease`;
 
 export default mongoose
   .connect(uri)
