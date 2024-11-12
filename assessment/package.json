@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
