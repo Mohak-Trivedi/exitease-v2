@@ -9,7 +9,7 @@ import authenticate from "./middleware/authenticate.js";
 try {
   await dbConnection;
   const app = express();
-  const port = process.env.PORT ?? 8080;
+  const port = process.env.PORT ?? 8082;
 
   app.use(cors());
   app.use(express.json());

@@ -6,7 +6,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // Node event listeners go here
     },
-    baseUrl: "http://localhost:8080",
+    baseUrl: "http://localhost:8082",
     specPattern: "cypress/integration/**/*.spec.js",
     video: false, // disable video recording if not needed
   },
